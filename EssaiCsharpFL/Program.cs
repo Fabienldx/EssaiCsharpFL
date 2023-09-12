@@ -16,7 +16,7 @@ namespace EssaiCsharpFL
             string prenom = Console.ReadLine();
             Console.WriteLine("Quel est votre âge ?");
             int age = int.Parse(Console.ReadLine());
-            Console.WriteLine("Votre nom et prénom sont {0} {1}, et vous avez {2} ans", nom, prenom, age);
+            Console.WriteLine("Votre nom et prénom sont {0} {1}, et vous avez {2} ans, Bienvenue !", nom, prenom, age);
             Console.ReadKey();
         }
     }
